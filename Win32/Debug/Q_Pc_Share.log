@@ -1,0 +1,65 @@
+﻿  Generate moc_predefs.h
+  Moc'ing cmd_dlg.h...
+  Moc'ing dps_thd.h...
+  Moc'ing ps_m_wnd.h...
+  Moc'ing ps_socket.h...
+  Uic'ing cmd_dlg.ui...
+  Uic'ing ps_m_wnd.ui...
+  client_session.cpp
+  cmd_dlg.cpp
+  dps_thd.cpp
+cmd_dlg.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+dps_thd.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 cmd_dlg.cpp)
+d:\code\kerui\second\qt\q_pc_share\ps_socket.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 client_session.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 dps_thd.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 client_session.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 dps_thd.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+  net_tools.cpp
+net_tools.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\kerui\second\qt\q_pc_share\dps_thd.cpp(192): error C4716: “Dps_Thd::ifs_dps”: 必须返回一个值
+d:\code\kerui\second\qt\q_pc_share\dps_thd.cpp(208): error C4716: “Dps_Thd::ifs_online”: 必须返回一个值
+d:\code\kerui\second\qt\q_pc_share\dps_thd.cpp(222): error C4716: “Dps_Thd::ifs_cmd”: 必须返回一个值
+d:\code\kerui\second\qt\q_pc_share\dps_thd.cpp(236): error C4716: “Dps_Thd::ifs_scr”: 必须返回一个值
+  ps_m_wnd.cpp
+ps_m_wnd.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ps_socket.cpp
+ps_socket.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_cmd_dlg.cpp
+net_tools.cpp(58): error C2601: “Net_Tools::send_buf”: 本地函数定义是非法的
+  net_tools.cpp(11): note: 此行有一个“{”没有匹配项
+net_tools.cpp(72): error C2601: “Net_Tools::recv_buf”: 本地函数定义是非法的
+  net_tools.cpp(11): note: 此行有一个“{”没有匹配项
+net_tools.cpp(120): error C2601: “Net_Tools::send_part”: 本地函数定义是非法的
+  net_tools.cpp(11): note: 此行有一个“{”没有匹配项
+net_tools.cpp(11): fatal error C1075: 左侧的 大括号“{” 与文件结尾不匹配
+  moc_dps_thd.cpp
+d:\code\kerui\second\qt\q_pc_share\generatedfiles\debug\../../dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_dps_thd.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_dps_thd.cpp)
+d:\code\kerui\second\qt\q_pc_share\ps_socket.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 ps_socket.cpp)
+d:\code\kerui\second\qt\q_pc_share\ps_socket.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 ps_m_wnd.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 ps_m_wnd.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 ps_m_wnd.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 ps_socket.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 ps_socket.cpp)
+ps_m_wnd.cpp(33): error C2001: 常量中有换行符
+ps_m_wnd.cpp(34): error C2064: 项不会计算为接受 1 个参数的函数
+ps_m_wnd.cpp(35): error C2001: 常量中有换行符
+ps_m_wnd.cpp(36): error C2064: 项不会计算为接受 1 个参数的函数
+ps_m_wnd.cpp(37): error C2059: 语法错误:“;”
+ps_m_wnd.cpp(98): error C2001: 常量中有换行符
+ps_m_wnd.cpp(99): error C2059: 语法错误:“}”
+ps_m_wnd.cpp(102): error C2001: 常量中有换行符
+ps_m_wnd.cpp(103): error C2059: 语法错误:“}”
+  moc_ps_m_wnd.cpp
+  moc_ps_socket.cpp
+d:\code\kerui\second\qt\q_pc_share\generatedfiles\debug\../../ps_socket.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_ps_socket.cpp)
+d:\code\kerui\second\qt\q_pc_share\ps_socket.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_ps_m_wnd.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_ps_socket.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_ps_socket.cpp)
+d:\code\kerui\second\qt\q_pc_share\settings.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_ps_m_wnd.cpp)
+d:\code\kerui\second\qt\q_pc_share\dps_thd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_ps_m_wnd.cpp)

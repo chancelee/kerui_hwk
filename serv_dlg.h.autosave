@@ -1,0 +1,28 @@
+#ifndef SERV_DLG_H
+#define SERV_DLG_H
+
+#include <QDialog>
+#include <QTableView>
+#include <QStandardItemModel>
+
+namespace Ui 
+{
+    class Serv_Dlg;
+}
+
+class Serv_Dlg : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit Serv_Dlg(QWidget *parent = 0);
+    ~Serv_Dlg();
+    
+public:
+    virtual void dps_data(QByteArray buf);
+
+private:
+    Ui::Serv_Dlg *ui;
+};
+
+#endif // SERV_DLG_H

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PS_M_Wnd</class>
+ <widget class="QMainWindow" name="PS_M_Wnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>705</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Pc_Share by 刘一刀</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QListView" name="tv_info">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>671</width>
+      <height>171</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>671</width>
+      <height>392</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTableView" name="tv_host"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>705</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>功能</string>
+    </property>
+    <addaction name="act_cmd"/>
+    <addaction name="act_scr"/>
+    <addaction name="separator"/>
+    <addaction name="act_file"/>
+    <addaction name="act_service"/>
+    <addaction name="act_proc"/>
+    <addaction name="act_reg"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="act_cmd"/>
+   <addaction name="act_scr"/>
+   <addaction name="act_file"/>
+   <addaction name="act_service"/>
+   <addaction name="act_proc"/>
+   <addaction name="act_reg"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="act_cmd">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/cmd</normaloff>:/cmd</iconset>
+   </property>
+   <property name="text">
+    <string>远程cmd</string>
+   </property>
+  </action>
+  <action name="act_scr">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/desktop</normaloff>:/desktop</iconset>
+   </property>
+   <property name="text">
+    <string>屏幕监控</string>
+   </property>
+  </action>
+  <action name="act_file">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/file</normaloff>:/file</iconset>
+   </property>
+   <property name="text">
+    <string>文件管理</string>
+   </property>
+  </action>
+  <action name="act_service">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/service</normaloff>:/service</iconset>
+   </property>
+   <property name="text">
+    <string>服务管理</string>
+   </property>
+  </action>
+  <action name="act_proc">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/process</normaloff>:/process</iconset>
+   </property>
+   <property name="text">
+    <string>进程管理 </string>
+   </property>
+  </action>
+  <action name="act_reg">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/reg</normaloff>:/reg</iconset>
+   </property>
+   <property name="text">
+    <string>注册表管理</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

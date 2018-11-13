@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="cmd">res/cmd_48.bmp</file>
+        <file alias="set">res/config_set_48px_.bmp</file>
+        <file alias="create">res/create_48.bmp</file>
+        <file alias="file">res/file_48px..bmp</file>
+        <file alias="process">res/process_48pxt.bmp</file>
+        <file alias="reg">res/reg_48px.bmp</file>
+        <file alias="desktop">res/desktop_48px.bmp</file>
+        <file alias="service">res/Service_48px.bmp</file>
+    </qresource>
+</RCC>
